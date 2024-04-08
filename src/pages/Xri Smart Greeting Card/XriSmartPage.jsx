@@ -49,7 +49,7 @@ const XriSmartPage = () => {
         {/* nav of ui end  */}
         {/* content box start  */}
         <div className="flex xl:-mt-20 lg:flex-row flex-col flex-wrap justify-center items-center xl:px-48 llg:px-64 lg:px-52 md:px-20  gap-x-4   relative">
-          <div className="relative xl:w-[380px] xl:h-[250px] llg:w-[250px] llg:h-[170px] lg:w-[250px] lg:h-[170px] w-[280px] h-[190px]    bg-contain xl:px-24 llg:px-5 lg:px-10 px-14 z-30 flex justify-center items-center bg-[url('./Astronaut/Board.png')]  font-sansita font-bold italic lg:text-2xl llg:text-3xl text-2xl text-center ">
+          <div className="relative xl:w-[380px] xl:h-[250px] llg:w-[250px] llg:h-[170px] lg:w-[250px] lg:h-[170px] w-[280px] h-[190px]    bg-contain xl:px-24 llg:px-5 lg:px-10 px-14 z-30 flex justify-center items-center bg-[url('/Astronaut/Board.png')]  font-sansita font-bold italic lg:text-2xl llg:text-3xl text-2xl text-center ">
             SOCIAL MEDIA AR FILTER
             <img
               className="absolute xl:bottom-10 xl:right-12 lg:bottom-8 lg:right-8 bottom-8 right-8 xl:w-fit lg:w-[10%] md:w-fit"
@@ -62,7 +62,7 @@ const XriSmartPage = () => {
               alt="astr"
             />
           </div>
-          <div className="relative xl:w-[380px] xl:h-[250px] llg:w-[250px] llg:h-[170px] lg:w-[250px] lg:h-[170px] w-[280px] h-[190px]   xl:px-8 px-5 bg-contain z-30 flex justify-center items-center bg-[url('./Astronaut/Board.png')] text-center">
+          <div className="relative xl:w-[380px] xl:h-[250px] llg:w-[250px] llg:h-[170px] lg:w-[250px] lg:h-[170px] w-[280px] h-[190px]   xl:px-8 px-5 bg-contain z-30 flex justify-center items-center bg-[url('/Astronaut/Board.png')] text-center">
             <Link
               className=" w-full h-full flex items-center font-sansita font-bold italic lg:text-2xl llg:text-3xl text-2xl"
               to={"/greetings"}
@@ -75,7 +75,7 @@ const XriSmartPage = () => {
               alt="icon"
             />
           </div>
-          <div className="relative xl:w-[380px] xl:h-[250px] llg:w-[250px] llg:h-[170px] lg:w-[250px] lg:h-[170px] w-[280px] h-[190px]    bg-contain xl:px-24 llg:px-5 z-30 flex justify-center items-center bg-[url('./Astronaut/Board.png')]  font-sansita font-bold italic lg:text-2xl llg:text-3xl text-2xl text-center ">
+          <div className="relative xl:w-[380px] xl:h-[250px] llg:w-[250px] llg:h-[170px] lg:w-[250px] lg:h-[170px] w-[280px] h-[190px]    bg-contain xl:px-24 llg:px-5 z-30 flex justify-center items-center bg-[url('/Astronaut/Board.png')]  font-sansita font-bold italic lg:text-2xl llg:text-3xl text-2xl text-center ">
             GAME
             <img
               className="absolute xl:bottom-10 xl:right-12 lg:bottom-8 lg:right-8 xl:w-fit lg:w-[10%] bottom-8 right-8 md:w-fit"
@@ -83,7 +83,7 @@ const XriSmartPage = () => {
               alt="icon"
             />
           </div>
-          <div className="relative xl:w-[380px] xl:h-[250px] llg:w-[250px] llg:h-[170px] lg:w-[250px] lg:h-[170px] w-[280px] h-[190px]    bg-contain xl:px-24 llg:px-5 z-30 flex justify-center items-center bg-[url('./Astronaut/Board.png')]  font-sansita font-bold italic lg:text-2xl llg:text-3xl text-2xl text-center  px-4">
+          <div className="relative xl:w-[380px] xl:h-[250px] llg:w-[250px] llg:h-[170px] lg:w-[250px] lg:h-[170px] w-[280px] h-[190px]    bg-contain xl:px-24 llg:px-5 z-30 flex justify-center items-center bg-[url('/Astronaut/Board.png')]  font-sansita font-bold italic lg:text-2xl llg:text-3xl text-2xl text-center  px-4">
             AR OPEN WORLD
             <img
               className="absolute xl:bottom-10 xl:right-12 lg:bottom-8 lg:right-8 xl:w-fit lg:w-[10%] bottom-8 right-8 md:w-fit"
