@@ -8,7 +8,7 @@ export default {
     extend: {
       screens: {
         xsm: "400px",
-        llg: "1140px"
+        llg: "1185px"
       },
     },
   },

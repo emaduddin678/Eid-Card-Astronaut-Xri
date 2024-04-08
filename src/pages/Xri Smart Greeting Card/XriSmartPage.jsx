@@ -1,19 +1,19 @@
 import React from "react";
 import xrlogo from "/xrLogo.png";
 // import moon from "/gpmoon.png";
-import eidm from "/public/Astronaut/eidmubrak.png";
-import icon1 from "/public/Astronaut/icon1.png";
-import icon2 from "/public/Astronaut/icon2.png";
-import icon3 from "/public/Astronaut/icon3.png";
-import icon4 from "/public/Astronaut/icon4.png";
-// import astrh from "/public/Astronaut/Astronauthang.png";
-import astrcrd from "/public/Astronaut/Astronautcard.png";
-import astrfly from "/public/Astronaut/Astronautfly.png";
+import eidm from "/Astronaut/eidmubrak.png";
+import icon1 from "/Astronaut/icon1.png";
+import icon2 from "/Astronaut/icon2.png";
+import icon3 from "/Astronaut/icon3.png";
+import icon4 from "/Astronaut/icon4.png";
+// import astrh from "/Astronaut/Astronauthang.png";
+import astrcrd from "/Astronaut/Astronautcard.png";
+import astrfly from "/Astronaut/Astronautfly.png";
 import { Link } from "react-router-dom";
 
 const XriSmartPage = () => {
   return (
-    <div className='h-[150vh] w-full bg-[url("/public/Astronaut/BG.png")] bg-[length:100%_100%] bg-no-repeat  overflow-hidden'>
+    <div className='h-[150vh] w-full lg:bg-[url("/Astronaut/BG.png")] bg-[url("/Astronaut/Backgroundsm.png")] bg-[length:100%_100%] bg-no-repeat  overflow-hidden'>
       <div className='bg-[url("/design.png")] w-full h-full '>
         {/* nav of ui  */}
         <header className="pb-6">
@@ -37,59 +37,66 @@ const XriSmartPage = () => {
                     <img className="absolute" src={astrh} alt="astronaut" />
                   </h1>
                 </div> */}
-                <img src={eidm} alt="" />
+                <img
+                  className="xl:w-full lg:w-4/5 "
+                  src={eidm}
+                  alt="Eid mubarak"
+                />
               </div>
             </div>
           </div>
         </header>
         {/* nav of ui end  */}
         {/* content box start  */}
-        <div className="flex -mt-20 flex-wrap justify-center items-center xl:px-40 llg:!px-52 lg:px-20 md:px-20  gap-x-4   relative">
-          <div className="relative w-[380px] h-[250px] bg-contain px-24 z-30 flex justify-center items-center bg-[url('./Astronaut/Board.png')] font-sansita font-bold italic text-3xl text-center ">
+        <div className="flex xl:-mt-20 lg:flex-row flex-col flex-wrap justify-center items-center xl:px-48 llg:px-64 lg:px-52 md:px-20  gap-x-4   relative">
+          <div className="relative xl:w-[380px] xl:h-[250px] llg:w-[250px] llg:h-[170px] lg:w-[250px] lg:h-[170px] w-[280px] h-[190px]    bg-contain xl:px-24 llg:px-5 lg:px-10 px-14 z-30 flex justify-center items-center bg-[url('./Astronaut/Board.png')]  font-sansita font-bold italic lg:text-2xl llg:text-3xl text-2xl text-center ">
             SOCIAL MEDIA AR FILTER
             <img
-              className="absolute bottom-10 right-12"
+              className="absolute xl:bottom-10 xl:right-12 lg:bottom-8 lg:right-8 bottom-8 right-8 xl:w-fit lg:w-[10%] md:w-fit"
               src={icon1}
               alt="icon"
             />
             <img
               className="absolute -top-[100px] left-6"
               src={astrcrd}
-              alt="icon"
+              alt="astr"
             />
           </div>
-          <div className="relative w-[380px] h-[250px] bg-contain z-30 flex justify-center items-center bg-[url('./Astronaut/Board.png')] text-center px-20">
+          <div className="relative xl:w-[380px] xl:h-[250px] llg:w-[250px] llg:h-[170px] lg:w-[250px] lg:h-[170px] w-[280px] h-[190px]   xl:px-8 px-5 bg-contain z-30 flex justify-center items-center bg-[url('./Astronaut/Board.png')] text-center">
             <Link
-              className=" w-full h-full flex items-center font-sansita font-bold italic text-3xl"
+              className=" w-full h-full flex items-center font-sansita font-bold italic lg:text-2xl llg:text-3xl text-2xl"
               to={"/greetings"}
             >
               PERSONALIZED GREETINGS
             </Link>
             <img
-              className="absolute bottom-10 right-12"
+              className="absolute xl:bottom-10 xl:right-12 lg:bottom-8 lg:right-8 xl:w-fit lg:w-[10%] bottom-8 right-8 md:w-fit"
               src={icon2}
               alt="icon"
             />
           </div>
-          <div className="relative w-[380px] h-[250px] bg-contain z-30 flex justify-center items-center bg-[url('./Astronaut/Board.png')] font-sansita font-bold italic text-3xl text-center px-2">
+          <div className="relative xl:w-[380px] xl:h-[250px] llg:w-[250px] llg:h-[170px] lg:w-[250px] lg:h-[170px] w-[280px] h-[190px]    bg-contain xl:px-24 llg:px-5 z-30 flex justify-center items-center bg-[url('./Astronaut/Board.png')]  font-sansita font-bold italic lg:text-2xl llg:text-3xl text-2xl text-center ">
             GAME
             <img
-              className="absolute bottom-10 right-12"
+              className="absolute xl:bottom-10 xl:right-12 lg:bottom-8 lg:right-8 xl:w-fit lg:w-[10%] bottom-8 right-8 md:w-fit"
               src={icon3}
               alt="icon"
             />
           </div>
-          <div className="relative w-[380px] h-[250px] bg-contain z-30 flex justify-center items-center bg-[url('./Astronaut/Board.png')] font-sansita font-bold italic text-3xl text-center px-4">
+          <div className="relative xl:w-[380px] xl:h-[250px] llg:w-[250px] llg:h-[170px] lg:w-[250px] lg:h-[170px] w-[280px] h-[190px]    bg-contain xl:px-24 llg:px-5 z-30 flex justify-center items-center bg-[url('./Astronaut/Board.png')]  font-sansita font-bold italic lg:text-2xl llg:text-3xl text-2xl text-center  px-4">
             AR OPEN WORLD
             <img
-              className="absolute bottom-10 right-12"
+              className="absolute xl:bottom-10 xl:right-12 lg:bottom-8 lg:right-8 xl:w-fit lg:w-[10%] bottom-8 right-8 md:w-fit"
               src={icon4}
               alt="icon"
             />
           </div>
 
-          <img className="absolute left-20 bottom-0" src={astrfly} alt="Astronaut fly" />
-
+          <img
+            className="absolute left-20 bottom-0"
+            src={astrfly}
+            alt="Astronaut fly"
+          />
         </div>
         {/* content box end*/}
       </div>
