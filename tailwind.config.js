@@ -5,12 +5,12 @@ export default {
     fontFamily: {
       sansita: ["Sansita", "sans-serif"],
     },
-    screens: {
-      xsm: "400px",
-      sm: "640px",
-      md: "768px",
+    extend: {
+      screens: {
+        xsm: "400px",
+        llg: "1140px"
+      },
     },
-    extend: {},
   },
   plugins: [],
 };
