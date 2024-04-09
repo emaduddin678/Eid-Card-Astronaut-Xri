@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 
 const XriSmartPage = () => {
   return (
-    <div className='h-[150vh] w-full lg:bg-[url("/Astronaut/BG.png")] bg-[url("/Astronaut/Backgroundsm.png")] bg-[length:100%_100%] bg-no-repeat  overflow-hidden'>
+    <div className='md:h-[150vh] h-screen w-full lg:bg-[url("/Astronaut/BG.png")] bg-[url("/Astronaut/Backgroundsm.png")] bg-[length:100%_100%] bg-no-repeat  overflow-hidden'>
       <div className='bg-[url("/design.png")] w-full h-full '>
         {/* nav of ui  */}
         <header className="pb-6">
@@ -38,7 +38,7 @@ const XriSmartPage = () => {
                   </h1>
                 </div> */}
                 <img
-                  className="xl:w-full lg:w-4/5 "
+                  className="xl:w-full lg:w-4/5 w-1/2"
                   src={eidm}
                   alt="Eid mubarak"
                 />
@@ -49,51 +49,51 @@ const XriSmartPage = () => {
         {/* nav of ui end  */}
         {/* content box start  */}
         <div className="flex xl:-mt-20 lg:flex-row flex-col flex-wrap justify-center items-center xl:px-48 llg:px-64 lg:px-52 md:px-20  gap-x-4   relative">
-          <div className="relative xl:w-[380px] xl:h-[250px] llg:w-[250px] llg:h-[170px] lg:w-[250px] lg:h-[170px] w-[280px] h-[190px]    bg-contain xl:px-24 llg:px-5 lg:px-10 px-14 z-30 flex justify-center items-center bg-[url('/Astronaut/Board.png')]  font-sansita font-bold italic lg:text-2xl llg:text-3xl text-2xl text-center ">
+          <div className="relative xl:w-[380px] xl:h-[250px] llg:w-[250px] llg:h-[170px] lg:w-[250px] lg:h-[170px] sm:w-[280px] sm:h-[190px] w-[180px] h-[120px]  bg-contain xl:px-24 llg:px-5 lg:px-10 md:px-14 px-5 z-30 flex justify-center items-center bg-[url('/Astronaut/Board.png')]  font-sansita font-bold italic lg:text-2xl llg:text-3xl sm:text-2xl text-xl text-center ">
             SOCIAL MEDIA AR FILTER
             <img
-              className="absolute xl:bottom-10 xl:right-12 lg:bottom-8 lg:right-8 bottom-8 right-8 xl:w-fit lg:w-[10%] md:w-fit"
+              className="absolute xl:bottom-10 xl:right-12 lg:bottom-8 lg:right-8 md:bottom-8 md:right-8 bottom-4 right-4 xl:w-fit lg:w-[10%] md:w-fit w-[15%]"
               src={icon1}
               alt="icon"
             />
             <img
-              className="absolute -top-[100px] left-6"
+              className="absolute md:-top-[100px] md:left-6 -top-12 left-1 md:w-fit w-1/3"
               src={astrcrd}
               alt="astr"
             />
           </div>
-          <div className="relative xl:w-[380px] xl:h-[250px] llg:w-[250px] llg:h-[170px] lg:w-[250px] lg:h-[170px] w-[280px] h-[190px]   xl:px-8 px-5 bg-contain z-30 flex justify-center items-center bg-[url('/Astronaut/Board.png')] text-center">
+          <div className="relative xl:w-[380px] xl:h-[250px] llg:w-[250px] llg:h-[170px] lg:w-[250px] lg:h-[170px] sm:w-[280px] sm:h-[190px] w-[180px] h-[120px]   xl:px-8 sm:px-5 bg-contain z-30 flex justify-center items-center bg-[url('/Astronaut/Board.png')] text-center">
             <Link
-              className=" w-full h-full flex items-center font-sansita font-bold italic lg:text-2xl llg:text-3xl text-2xl"
+              className=" w-full h-full flex items-center font-sansita font-bold italic lg:text-2xl llg:text-3xl sm:text-2xl text-xl"
               to={"/greetings"}
             >
               PERSONALIZED GREETINGS
             </Link>
             <img
-              className="absolute xl:bottom-10 xl:right-12 lg:bottom-8 lg:right-8 xl:w-fit lg:w-[10%] bottom-8 right-8 md:w-fit"
+              className="absolute xl:bottom-10 xl:right-12 lg:bottom-8 lg:right-8  xl:w-fit lg:w-[10%] md:bottom-8 md:right-8 bottom-4 right-4 md:w-fit w-[15%]"
               src={icon2}
               alt="icon"
             />
           </div>
-          <div className="relative xl:w-[380px] xl:h-[250px] llg:w-[250px] llg:h-[170px] lg:w-[250px] lg:h-[170px] w-[280px] h-[190px]    bg-contain xl:px-24 llg:px-5 z-30 flex justify-center items-center bg-[url('/Astronaut/Board.png')]  font-sansita font-bold italic lg:text-2xl llg:text-3xl text-2xl text-center ">
+          <div className="relative xl:w-[380px] xl:h-[250px] llg:w-[250px] llg:h-[170px] lg:w-[250px] lg:h-[170px] sm:w-[280px] sm:h-[190px] w-[180px] h-[120px]    bg-contain xl:px-24 llg:px-5 z-30 flex justify-center items-center bg-[url('/Astronaut/Board.png')]  font-sansita font-bold italic lg:text-2xl llg:text-3xl text-2xl text-center ">
             GAME
             <img
-              className="absolute xl:bottom-10 xl:right-12 lg:bottom-8 lg:right-8 xl:w-fit lg:w-[10%] bottom-8 right-8 md:w-fit"
+              className="absolute xl:bottom-10 xl:right-12 lg:bottom-8 lg:right-8 xl:w-fit lg:w-[10%] md:bottom-8 md:right-8 bottom-4 right-4 md:w-fit w-[15%]"
               src={icon3}
               alt="icon"
             />
           </div>
-          <div className="relative xl:w-[380px] xl:h-[250px] llg:w-[250px] llg:h-[170px] lg:w-[250px] lg:h-[170px] w-[280px] h-[190px]    bg-contain xl:px-24 llg:px-5 z-30 flex justify-center items-center bg-[url('/Astronaut/Board.png')]  font-sansita font-bold italic lg:text-2xl llg:text-3xl text-2xl text-center  px-4">
+          <div className="relative xl:w-[380px] xl:h-[250px] llg:w-[250px] llg:h-[170px] lg:w-[250px] lg:h-[170px] sm:w-[280px] sm:h-[190px] w-[180px] h-[120px]    bg-contain xl:px-24 llg:px-5 z-30 flex justify-center items-center bg-[url('/Astronaut/Board.png')]  font-sansita font-bold italic lg:text-2xl llg:text-3xl text-2xl text-center  px-4">
             AR OPEN WORLD
             <img
-              className="absolute xl:bottom-10 xl:right-12 lg:bottom-8 lg:right-8 xl:w-fit lg:w-[10%] bottom-8 right-8 md:w-fit"
+              className="absolute xl:bottom-10 xl:right-12 lg:bottom-8 lg:right-8 xl:w-fit lg:w-[10%] md:bottom-8 md:right-8 bottom-4 right-4 md:w-fit w-[15%]"
               src={icon4}
               alt="icon"
             />
           </div>
 
           <img
-            className="absolute left-20 bottom-0"
+            className="absolute md:left-20 bottom-0 -left-1 w-1/4"
             src={astrfly}
             alt="Astronaut fly"
           />
